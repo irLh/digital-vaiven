@@ -1,7 +1,19 @@
 # digital-vaiven 🇵🇷
 Freeze dried tumblr blog via httrack
 
-## Steps to reproduce on OSX
+## Steps to view site locally
+
+1. Clone this repository + cd into it
+    ```sh
+     $ git clone https://github.com/irLh/digital-vaiven.git
+     $ cd digital-vaiven
+     ```
+2. Open in default browser
+    ```sh
+    $ open index.html
+    ```
+
+## Steps to reproduce (OSX)
 
 1. Install httrack with [Homebrew](https://brew.sh/):
   
@@ -18,5 +30,6 @@ Freeze dried tumblr blog via httrack
     ```sh
     $ httrack https://digitalvaiven.tumblr.com --verbose
     ```
+    
 ## Notes
 CLI options may need to be tweaked in the future. For reference, see: https://forum.httrack.com/readmsg/36755/36754/index.html
